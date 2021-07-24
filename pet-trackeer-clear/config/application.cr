@@ -20,6 +20,7 @@ require "./initializers/**"
 # Start Generator Dependencies: Don't modify.
 # End Generator Dependencies
 
+require "../src/models/**"
 require "../src/controllers/application_controller"
 require "../src/controllers/**"
 require "./routes"
