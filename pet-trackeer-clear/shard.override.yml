@@ -1,0 +1,4 @@
+dependencies:
+  inflector:
+    github: phoffer/inflector.cr
+    version: "~> 1.0.0"

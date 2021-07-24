@@ -1,5 +1,10 @@
+# NOTICE: This lockfile contains some overrides from shard.override.yml
 version: 2.0
 shards:
+  admiral:
+    git: https://github.com/jwaldrip/admiral.cr.git
+    version: 1.12.1
+
   amber:
     git: https://github.com/amberframework/amber.git
     version: 1.0.0rc2+git.commit.fb0cbcc346a102423c482452ad2a37f17e49228d
@@ -23,6 +28,10 @@ shards:
   citrine-i18n:
     git: https://github.com/dare892/citrine-i18n.git
     version: 1.0.0
+
+  clear:
+    git: https://github.com/anykeyh/clear.git
+    version: 0.9+git.commit.775e877c4f961da01fa621ae7ca302cb735198df
 
   cli:
     git: https://github.com/amberframework/cli.git
@@ -52,15 +61,15 @@ shards:
     git: https://github.com/amberframework/garnet-spec.git
     version: 0.4.1
 
-  granite:
-    git: https://github.com/amberframework/granite.git
-    version: 0.23.0
+  generate:
+    git: https://github.com/anykeyh/generate.cr.git
+    version: 0.1.0+git.commit.f5dafc934a70e0ee2f246dddf3df44686f844da2
 
   i18n:
     git: https://github.com/dare892/i18n.cr.git
     version: 0.3.1+git.commit.00b38087fb9a430f32d77ecd51e563f3a16432d9
 
-  inflector:
+  inflector: # Overridden
     git: https://github.com/phoffer/inflector.cr.git
     version: 1.0.0
 

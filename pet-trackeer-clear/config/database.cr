@@ -1,3 +1,4 @@
-require "granite/adapter/pg"
+require "clear"
 
-Granite::Connections << Granite::Adapter::Pg.new(name: "pg", url: ENV["DATABASE_URL"]? || Amber.settings.database_url)
+# initialize a pool of database connection:
+Clear::SQL.init("postgres://meraj@localhost/pet_tracker_development")
